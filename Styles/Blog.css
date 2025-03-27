@@ -1,0 +1,76 @@
+/* Main Navigation Bar Styles */
+#main-nav {
+    background-color: #E5E5E5;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #c5c4c4;
+}
+
+#main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; /* Aligns buttons to the right */
+    gap: 10px;
+    padding-right: 50px; /* Moves buttons to the right */
+}
+
+#main-nav ul li {
+    display: inline;
+}
+
+#main-nav ul li a {
+    text-decoration: none;
+    color: #1C1C1C;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+#main-nav ul li a:hover {
+    background-color: #6B7A8F;
+    color: white;
+}
+
+/* Second Navigation Bar Styles */
+#sub-nav {
+    background-color: #D3D3D3;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 50px; /* Positioned below the main nav */
+    left: 0;
+    z-index: 999;
+    border-bottom: 2px solid #b0b0b0;
+}
+
+#sub-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centers the buttons */
+    gap: 15px;
+    padding: 0;
+}
+
+#sub-nav ul li {
+    display: inline;
+}
+
+#sub-nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 12px;
+    font-size: 16px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+#sub-nav ul li a:hover {
+    background-color: #6B7A8F;
+    color: white;
+}

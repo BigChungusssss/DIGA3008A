@@ -1,0 +1,47 @@
+body {
+    background-color: #E5E5E5; /* Change this to any color */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Main Navigation Bar Styles */
+#main-nav {
+    background-color: #E5E5E5;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #c5c4c4; /* Creates the separating line */
+}
+
+#main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    gap: 10px;
+    padding-right: 50px; /* Moves buttons to the right */
+}
+
+#main-nav ul li {
+    display: inline;
+}
+
+#main-nav ul li a {
+    text-decoration: none;
+    color: #1C1C1C;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+#main-nav ul li a:hover {
+    background-color: #6B7A8F;
+}

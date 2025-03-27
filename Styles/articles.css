@@ -1,0 +1,73 @@
+body {
+    background-color: #1c1c1c;  /* Background color */
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;  /* Allow vertical scrolling on body */
+    height: 100vh;  /* Full height of the viewport */
+}
+
+.pdf-page {
+    background-color: #1c1c11;  /* Background color */
+    width: 100vw;  /* Full width of the viewport */
+    min-height: 100vh;  /* Ensure the page takes at least the full height */
+    padding: 20px;  /* Adjusted padding for better fit */
+    margin: 0;  /* Remove any external margin */
+    border-radius: 0;  /* No rounded corners */
+    box-shadow: none;  /* Remove shadow for a more flat design */
+    border: none;  /* Remove border */
+    display: flex;
+    flex-direction: column;  /* Stack content vertically */
+    box-sizing: border-box;  /* Include padding in width/height calculation */
+    overflow: visible;  /* Ensure overflow is visible within the page */
+}
+
+h2, h3, h4 {
+    color: #E5E5E5;
+    margin-top: 20px;
+}
+
+p {
+    color: #E5E5E5;  /* Set the paragraph text color to light gray */
+    line-height: 1.6;  /* Enhanced readability */
+    margin-bottom: 20px;
+    text-align: justify;  /* Justify text like a document */
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    border-radius: 5px;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);  /* Adds slight depth */
+}
+
+/* Divider line between sections */
+.section-divider {
+    border: 0;
+    border-top: 2px solid #E5E5E5;  /* Horizontal line to separate sections */
+    margin: 30px 0;  /* Adds space before/after line */
+}
+
+/* Print-specific styles */
+@media print {
+    body {
+        background-color: #E5E5E5;
+    }
+
+    .pdf-page {
+        box-shadow: none;
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+}
+
+

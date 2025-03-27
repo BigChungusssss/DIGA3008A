@@ -1,0 +1,44 @@
+    /* Layout for Content */
+    .container {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        padding-top: 23px; /* Prevent navbar overlap */
+    }
+
+    /* Adjusted Image */
+    .image {
+        flex: 1; /* Reduces image size */
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .image img {
+        width: 70%; /* Shrinks the image */
+        height: auto; /* Maintains aspect ratio */
+        max-height: 100vh; /* Limits max height */
+        border-radius: 0px; /* Adds rounded corners */
+    }
+
+    /* Caption on the left */
+    .caption {
+        flex: 1;
+        text-align: left; /* Align text to the left */
+        padding: 20px;
+    }
+
+    .caption h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .caption p {
+        font-size: 16px;
+        color: #1C1C1C;
+    }
+
+    .caption h2 {
+        font-size: 50px;
+        color: #1C1C1c;
+    }

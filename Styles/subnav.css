@@ -1,0 +1,87 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the hamburger icon */
+.hamburger {
+    font-size: 30px;
+    padding: 15px;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1001;  /* Ensure it's above everything else */
+}
+
+/* Sidebar styles (hidden by default) */
+#sub-nav {
+    height: 100%; /* Full height of the screen */
+    width: 0;  /* Initially hidden */
+    position: fixed;
+    top: 0;
+    left: 0;  /* Sidebar will be on the left side */
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;  /* Spacing from the top */
+    box-shadow: 4px 0 12px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+/* Style the links inside the sidebar */
+#sub-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#sub-nav ul li {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#sub-nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+#sub-nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Main content styling */
+.content {
+    padding: 20px;
+    transition: margin-left 0.3s;
+}
+
+/* When the sidebar is open */
+#sub-nav.open {
+    width: 250px; /* Sidebar width when open */
+}
+
+/* Adjust the content area when the sidebar is open */
+#sub-nav.open ~ .content {
+    margin-left: 250px; /* Shift content to the right */
+}
+
+/* Ensure links are responsive and adjust for smaller screens */
+@media screen and (max-width: 768px) {
+    /* Make the sidebar take up full width on small screens */
+    #sub-nav.open {
+        width: 100%; /* Full width when the sidebar opens on small screens */
+    }
+
+    #sub-nav.open ~ .content {
+        margin-left: 0; /* No content shift on small screens */
+    }
+}
+
+
