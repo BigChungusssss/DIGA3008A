@@ -46,12 +46,17 @@ body {
     background-color: #6B7A8F;
 }
 
-/* Mobile adjustments */
 @media (max-width: 768px) {
+    #main-nav {
+        position: static; /* Remove fixed positioning */
+        width: 100%;
+        padding: 20px 10px;
+    }
+
     #main-nav ul {
         flex-direction: column;
         align-items: flex-start;
-        padding: 10px 20px;
+        padding: 0;
         gap: 5px;
     }
 
