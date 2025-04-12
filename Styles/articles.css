@@ -1,5 +1,5 @@
 body {
-    background-color: #1c1c1c;  /* Background color */
+    background-color: #b3472d;  /* Background color */
     margin: 0;
     padding: 0;
     overflow-y: auto;  /* Allow vertical scrolling on body */
@@ -7,7 +7,7 @@ body {
 }
 
 .pdf-page {
-    background-color: #1c1c11;  /* Background color */
+    background-color: #b3472d;  /* Background color */
     width: 100vw;  /* Full width of the viewport */
     min-height: 100vh;  /* Ensure the page takes at least the full height */
     padding: 20px;  /* Adjusted padding for better fit */
@@ -22,12 +22,12 @@ body {
 }
 
 h2, h1, h3, h4 {
-    color: #E5E5E5;
+    color: #ece7db;
     margin-top: 20px;
 }
 
 p {
-    color: #E5E5E5;  /* Set the paragraph text color to light gray */
+    color: #ece7db;  /* Set the paragraph text color to light gray */
     line-height: 1.6;  /* Enhanced readability */
     margin-bottom: 20px;
     text-align: justify;  /* Justify text like a document */
@@ -59,7 +59,7 @@ img {
 /* Print-specific styles */
 @media print {
     body {
-        background-color: #E5E5E5;
+        background-color: #b3472d;
     }
 
     .pdf-page {

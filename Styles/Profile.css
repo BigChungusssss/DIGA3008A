@@ -5,23 +5,37 @@
   overflow: hidden;
 }
 
-
 .fullscreen-image {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    display: block;
-  }
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  display: block;
+}
 
-  .overlay-text {
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: white;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: for contrast */
-    padding: 20px 30px;
-    border-radius: 12px;
-    font-family: sans-serif;
-  }
+/* Top overlay for h2 */
+.overlay-heading {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 30px;
+  border-radius: 12px;
+  font-family: sans-serif;
+}
+
+/* Bottom overlay for p */
+.overlay-paragraph {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 30px;
+  border-radius: 12px;
+  font-family: sans-serif;
+}

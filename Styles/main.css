@@ -11,7 +11,7 @@ body {
 
 /* Main Navigation Bar Styles */
 #main-nav {
-    background-color: #E5E5E5;
+    background-color: #2f2c3f;
     padding: 10px 0;
     position: fixed;
     width: 100%;
@@ -35,7 +35,7 @@ body {
 
 #main-nav ul li a {
     text-decoration: none;
-    color: #1C1C1C;
+    color: #E5E5E5;
     padding: 8px 12px;
     border-radius: 5px;
     font-size: 16px;
