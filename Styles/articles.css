@@ -21,7 +21,7 @@ body {
     overflow: visible;  /* Ensure overflow is visible within the page */
 }
 
-h2, h3, h4 {
+h2, h1, h3, h4 {
     color: #E5E5E5;
     margin-top: 20px;
 }

@@ -1,40 +1,56 @@
 /* Blog Navigation Container */
 #blog-nav {
     display: flex;
-    justify-content: center; /* Center cards horizontally */
-    align-items: center; /* Center cards vertically */
-    height: 100vh; /* Full viewport height */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     padding: 20px;
+
 }
 
 /* Blog Card Styles */
 #blog-nav ul {
     list-style: none;
     padding: 0;
-    display: flex;
-    gap: 20px; /* Space between cards */
     margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+    gap: 25px;
+    justify-content: center;
+    max-width: 1200px;
+    width: 100%;
+
 }
 
+
 #blog-nav ul li {
-    flex: 1 1 300px; /* Makes cards responsive with a minimum width */
-    max-width: 350px; /* Prevents cards from being too large */
+    flex: 0 0 220px; 
+    aspect-ratio: 2 / 3;
+    display: flex;          /* Card-like fixed size */
+
+
+
+
 }
 
 #blog-nav ul li a {
     display: block;
     background-color: #f8f9fa;
-    padding: 50px;
+    padding: 30px 20px;
     text-align: center;
-    border-radius: 15px; /* Rounded corners for card effect */
+    border-radius: 12px;
     text-decoration: none;
     color: #333;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add deeper shadow for card effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s, box-shadow 0.3s;
-    border: 2px solid #ccc; /* Border to resemble playing cards */
-    transform: perspective(1500px) rotateY(0); /* Adding a slight 3D effect */
+    border: 2px solid #ccc;
+    transform: perspective(1500px) rotateY(0);
+    width: 100%;               /* Fill the flex item */
+    height: 100%;
+
+
 }
 
 #blog-nav ul li a:hover {
