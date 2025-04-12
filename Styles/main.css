@@ -70,4 +70,8 @@ body {
         padding: 10px 0;
         font-size: 18px;
     }
+
+    .page-content {
+        margin-top: 60px; /* match the nav height */
+      }
 }
