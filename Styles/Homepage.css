@@ -33,4 +33,24 @@
     font-size: 18px;
     color: #444;
   }
+
+  /* Mobile adjustments */
+@media (max-width: 768px) {
+  .centered-container {
+    padding: 20px;
+  }
+
+  .image-wrapper img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .caption h2 {
+    font-size: 24px;
+  }
+
+  .caption p {
+    font-size: 16px;
+  }
+}
   

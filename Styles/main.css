@@ -45,3 +45,24 @@ body {
 #main-nav ul li a:hover {
     background-color: #6B7A8F;
 }
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    #main-nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+        gap: 5px;
+    }
+
+    #main-nav ul li {
+        width: 100%;
+    }
+
+    #main-nav ul li a {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+        font-size: 18px;
+    }
+}

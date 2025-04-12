@@ -66,3 +66,33 @@ body {
     color: white;
 }
 
+/* Mobile & Tablet Adjustments */
+@media (max-width: 1024px) {
+    #blog-nav ul {
+      grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    }
+  
+    #blog-nav {
+      height: auto; /* Allow content to grow */
+      padding: 40px 20px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    #blog-nav ul {
+      grid-template-columns: 1fr; /* Stack cards vertically */
+    }
+  
+    #blog-nav ul li {
+      flex: 0 0 auto;
+      aspect-ratio: auto;
+      height: auto;
+    }
+  
+    #blog-nav ul li a {
+      padding: 20px 16px;
+      font-size: 18px;
+    }
+  }
+  
+

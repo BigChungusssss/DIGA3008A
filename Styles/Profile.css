@@ -39,3 +39,18 @@
   border-radius: 12px;
   font-family: sans-serif;
 }
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .overlay-heading {
+    top: 20px;
+    padding: 12px 16px;
+    font-size: 1.5rem;
+  }
+
+  .overlay-paragraph {
+    bottom: 20px;
+    padding: 12px 16px;
+    font-size: 1rem;
+  }
+}
