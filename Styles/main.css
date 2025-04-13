@@ -12,24 +12,39 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Main Navigation Bar Styles */
-#main-nav {
-    background-color: #2f2c3f;
-    padding: 10px 0;
-    position: sticky;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    border-bottom: 2px solid #c5c4c4; /* Creates the separating line */
+#main-nav .site-title {
+  color: #E5E5E5;
+  text-align: left;
+  font-size: 20px;
+  font-family: "Gelasio", serif;
+  font-weight: 600;
+  margin-left: 0; 
+  margin-top: 0;
+   
+  
 }
 
+#main-nav {
+  background-color: #2f2c3f;
+  padding: 5px 50px; /* Reduced top/bottom padding to decrease navbar height */
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 2px solid #c5c4c4;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 #main-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: flex-end; /* Align buttons to the right */
-    gap: 10px;
-    padding-right: 50px; /* Moves buttons to the right */
+  list-style: none;
+  display: flex;
+  justify-content: flex-end; /* Align buttons to the right */
+  gap: 10px;
 }
 
 #main-nav ul li {
