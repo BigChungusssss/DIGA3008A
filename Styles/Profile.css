@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap');
+
 .image-container {
   position: relative;
   width: 100vw;
@@ -23,7 +26,11 @@
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px 30px;
   border-radius: 12px;
-  font-family: sans-serif;
+  font-family: "Gelasio", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+
 }
 
 /* Bottom overlay for p */
@@ -37,7 +44,11 @@
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px 30px;
   border-radius: 12px;
-  font-family: sans-serif;
+  font-family: "Gelasio", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+
 }
 
 /* Mobile adjustments */

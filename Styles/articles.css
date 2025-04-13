@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap');
+
+
 body {
     background-color: #b3472d;  /* Background color */
     margin: 0;
@@ -7,7 +10,7 @@ body {
 }
 
 .pdf-page {
-    background-color: #b3472d;  /* Background color */
+    background-color: #1c1c1c;  /* Background color */
     width: 100vw;  /* Full width of the viewport */
     min-height: 100vh;  /* Ensure the page takes at least the full height */
     padding: 20px;  /* Adjusted padding for better fit */
@@ -21,16 +24,24 @@ body {
     overflow: visible;  /* Ensure overflow is visible within the page */
 }
 
-h2, h1, h3, h4 {
-    color: #ece7db;
+h2, h1, h3, h4, h5, h6 {
+    color: #E5E5E5;
     margin-top: 20px;
+    font-family: "Gelasio", serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
 }
 
 p {
-    color: #ece7db;  /* Set the paragraph text color to light gray */
+    color: #E5E5E5;  /* Set the paragraph text color to light gray */
     line-height: 1.6;  /* Enhanced readability */
     margin-bottom: 20px;
     text-align: justify;  /* Justify text like a document */
+    font-family: "Gelasio", serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
 }
 
 table {
@@ -46,7 +57,11 @@ td {
 img {
     border-radius: 5px;
     border: 1px solid #E5E5E5;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);  /* Adds slight depth */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Default to full width of container */
+    max-width: 600px; /* Adjust max size */
+    margin: 10px; /* Less space between images */
+
 }
 
 /* Divider line between sections */
@@ -59,7 +74,7 @@ img {
 /* Print-specific styles */
 @media print {
     body {
-        background-color: #b3472d;
+        background-color: #67b2bc;
     }
 
     .pdf-page {
@@ -67,6 +82,17 @@ img {
         margin: 0;
         width: 100%;
         height: auto;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    img {
+        max-width: 700px; /* Slightly bigger images for high-res displays */
+        margin: 5px 10px; /* Reduce margin to bring them closer */
+    }
+
+    .pdf-page {
+        padding: 30px; /* Optional: Slightly more room on large screens */
     }
 }
 

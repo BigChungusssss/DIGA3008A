@@ -1,7 +1,8 @@
 /* Blog Navigation Container */
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap');
 
 body {
-    background-color: #b3472d /* Light blue example - change as needed */
+    background-color: #2d333a /* Light blue example - change as needed */
 }
 
 
@@ -55,6 +56,10 @@ body {
     transform: perspective(1500px) rotateY(0);
     width: 100%;               /* Fill the flex item */
     height: 100%;
+    font-family: "Gelasio", serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
 
 
 }
@@ -92,6 +97,24 @@ body {
     #blog-nav ul li a {
       padding: 20px 16px;
       font-size: 18px;
+    }
+  }
+  
+  @media screen and (min-width: 2560px) {
+    #blog-nav ul {
+      gap: 40px; /* Space between cards */
+      max-width: 100%; /* Allow full width usage */
+      padding: 0 60px; /* Some horizontal breathing room */
+      grid-template-columns: repeat(4, 1fr); /* Still 4 cards per row */
+    }
+  
+    #blog-nav ul li {
+      flex: 1 1 auto; /* Let them grow naturally */
+    }
+  
+    #blog-nav ul li a {
+      padding: 60px 40px;
+      font-size: 28px;
     }
   }
   
