@@ -2,7 +2,7 @@
 
 
 .centered-container {
-    background-color: #2d333a ; /* You can change this to any color you want */
+    background-color: #2d333a ; 
     padding: 40px;
     display: flex;
     flex-direction: column;

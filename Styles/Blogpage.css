@@ -7,12 +7,13 @@ body {
 
 
 #blog-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding: 20px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 20px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* Blog Card Styles */
