@@ -15,7 +15,7 @@
   display: block;
 }
 
-/* Top overlay for h2 */
+
 .overlay-heading {
   position: absolute;
   top: 40px;
@@ -33,7 +33,7 @@
 
 }
 
-/* Bottom overlay for p */
+
 .overlay-paragraph {
   position: absolute;
   bottom: 40px;
@@ -51,7 +51,7 @@
 
 }
 
-/* Mobile adjustments */
+
 @media (max-width: 768px) {
   .overlay-heading {
     top: 20px;

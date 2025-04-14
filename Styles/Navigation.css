@@ -1,4 +1,4 @@
-/* Single Blog Container */
+
 #navigation {
     display: flex;
     justify-content: center;
@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-/* Blog Card Styles */
+
 #navigation ul {
     list-style: none;
     padding: 0;
@@ -16,13 +16,13 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
-    max-width: 900px; /* Wide container for long cards */
+    max-width: 900px; 
     width: 100%;
 }
 
 #navigation ul li {
     display: flex;
-    height: 60px; /* Much shorter height */
+    height: 60px; 
 }
 
 #navigation ul li a {
