@@ -87,7 +87,7 @@ img {
 }
 
 /* Print-specific styles */
-@media print {
+@media screen and (max-width: 420px) {
     body {
         background-color: #67b2bc;
     }
@@ -99,25 +99,32 @@ img {
         height: auto;
     }
 
-    img {
-        width: 90%;       /* Slightly smaller than full width */
-        max-width: 90%;   /* Prevent stretching */
-        margin: 10px auto; /* Center the images */
-        display: block;   /* Ensures margin:auto works */
-        height: auto;
-        max-height: 400px; /* Or whatever limit you want */
-        object-fit: contain; /* Keeps the image looking good */
-    }
-
-    table, tbody, tr, td {
+    table img {
+        max-width: 200px;     /* smaller width for narrow screens */
+        height: 120px;        /* shorter length */
+        object-fit: contain;  /* keep full image visible, no cropping */
         display: block;
-        width: 100%;
+        margin: 0 auto;       /* center the image inside td */
+        border: none;
+        box-shadow: none;
     }
 
     td {
-        padding: 10px 0;
-        text-align: center;
+        padding: 5px;
+        background-color: #1c1c1c; /* Same as your page background */
     }
+
+    img {
+        width: 70%;           /* Make images smaller */
+        max-width: 300px;     /* Limit their max size */
+        margin: 10px auto;    /* Center the images */
+        display: block;       /* Ensure centering works */
+        height: auto;         /* Maintain aspect ratio */
+    }
+    
+
+
+
 }
 
 @media screen and (min-width: 2560px) {
