@@ -10,12 +10,24 @@ body {
   }
 
   header {
-    margin-top: 40px;
-    font-size: 2.5rem;
+    margin-top: 200px;
+    font-size: 3.5rem; /* Increased from 2.5rem */
+    margin-bottom: 150px; /* adds space below */
     font-weight: bold;
     color: #e5e5e5;
     letter-spacing: 2px;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .header2 {
+    
+    margin-top: 150px; /* pushes it down */
+    font-size: 2rem;
+    font-weight: semi-bold;
+    color: #e5e5e5;
+    letter-spacing: 1px;
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
+
   }
 
   .gallery {
