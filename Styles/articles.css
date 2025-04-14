@@ -104,6 +104,9 @@ img {
         max-width: 90%;   /* Prevent stretching */
         margin: 10px auto; /* Center the images */
         display: block;   /* Ensures margin:auto works */
+        height: auto;
+        max-height: 400px; /* Or whatever limit you want */
+        object-fit: contain; /* Keeps the image looking good */
     }
 }
 
