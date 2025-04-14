@@ -66,27 +66,27 @@ body {
 }
 
 #blog-nav ul li a:hover {
-    transform: perspective(1500px) rotateY(5deg); /* 3D rotation effect on hover */
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25); /* More shadow on hover */
+    transform: perspective(1500px) rotateY(5deg); 
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25); 
     background-color: #6B7A8F;
     color: white;
 }
 
-/* Mobile & Tablet Adjustments */
+
 @media (max-width: 1024px) {
     #blog-nav ul {
-      grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+      grid-template-columns: repeat(2, 1fr); 
     }
   
     #blog-nav {
-      height: auto; /* Allow content to grow */
+      height: auto; 
       padding: 40px 20px;
     }
   }
   
   @media (max-width: 600px) {
     #blog-nav ul {
-      grid-template-columns: 1fr; /* Stack cards vertically */
+      grid-template-columns: 1fr; 
     }
   
     #blog-nav ul li {
@@ -103,14 +103,14 @@ body {
   
   @media screen and (min-width: 2560px) {
     #blog-nav ul {
-      gap: 40px; /* Space between cards */
-      max-width: 100%; /* Allow full width usage */
-      padding: 0 60px; /* Some horizontal breathing room */
-      grid-template-columns: repeat(4, 1fr); /* Still 4 cards per row */
+      gap: 40px; 
+      max-width: 100%; 
+      padding: 0 60px; 
+      grid-template-columns: repeat(4, 1fr); 
     }
   
     #blog-nav ul li {
-      flex: 1 1 auto; /* Let them grow naturally */
+      flex: 1 1 auto; 
     }
   
     #blog-nav ul li a {
