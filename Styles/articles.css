@@ -108,6 +108,16 @@ img {
         max-height: 400px; /* Or whatever limit you want */
         object-fit: contain; /* Keeps the image looking good */
     }
+
+    table, tbody, tr, td {
+        display: block;
+        width: 100%;
+    }
+
+    td {
+        padding: 10px 0;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 2560px) {
