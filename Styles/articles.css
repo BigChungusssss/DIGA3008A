@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
 
 
 body {
@@ -27,21 +28,24 @@ body {
 h2, h1, h3, h4, h5, h6 {
     color: #E5E5E5;
     margin-top: 20px;
-    font-family: "Gelasio", serif;
-    font-optical-sizing: auto;
-    
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
     font-style: normal;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+
+
 }
 
 p {
     color: #E5E5E5;  
     line-height: 1.6;  
     margin-bottom: 20px;
-    text-align: justify;  
-    font-family: "Gelasio", serif;
-    font-optical-sizing: auto;
-    
-    font-style: normal;
+    text-align: justify; 
+
+
+
 }
 
 #review-list {
@@ -49,14 +53,26 @@ p {
     margin-left: 20px;
     padding-left: 20px;
     margin-bottom: 20px;
-    font-family: "Gelasio", serif;
-    font-optical-sizing: auto;
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
     font-style: normal;
+
+ 
 }
 
 #review-list li {
     margin-bottom: 10px;
     line-height: 1.5;
+
+}
+
+#review-list h1 {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 table {
@@ -87,7 +103,7 @@ img {
 }
 
 .pdf-page .dt-published {
-    color: white; /* Force white text */
+    color: white; 
     font-size: 0.95rem;
     font-style: italic;
     margin-bottom: 20px;
@@ -95,13 +111,18 @@ img {
 }
 
 .h-card a {
-    color: #e5e5e5;       /* Change to white or any color you like */
-    text-decoration: none; /* Removes underline */
-  }
+    color: #e5e5e5;       
+    text-decoration: none; 
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
   
   .h-card a:hover {
-    color: #6B7A8F ;        /* Optional: add a hover color */
-    text-decoration: underline; /* Optional: underline on hover */
+    color: #6B7A8F ;       
+    text-decoration: underline; 
   }
 
 

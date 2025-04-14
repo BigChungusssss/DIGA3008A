@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 
 .image-container {
   position: relative;
@@ -26,10 +25,10 @@
   
   padding: 20px 30px;
   border-radius: 12px;
-  font-family: "Gelasio", serif;
-  font-optical-sizing: auto;
-  
+  font-family: "MedievalSharp", cursive;
+  font-weight: 400;
   font-style: normal;
+
 
 }
 
@@ -44,10 +43,11 @@
   
   padding: 20px 30px;
   border-radius: 12px;
-  font-family: "Gelasio", serif;
-  font-optical-sizing: auto;
-  
+  font-family: "MedievalSharp", cursive;
+  font-weight: 400;
   font-style: normal;
+
+
 
 }
 

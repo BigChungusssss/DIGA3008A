@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
 
 
 .centered-container {
@@ -24,29 +25,31 @@
     text-align: center;
     margin-top: 20px;
     max-width: 600px;
-    font-family: "Gelasio", serif;
-    font-optical-sizing: auto;
-    
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
     font-style: normal;
+
   }
   
   .caption h2 {
     font-size: 32px;
     color: #e5e5e5;
     margin-bottom: 10px;
-    font-family: "Gelasio", serif;
-    font-optical-sizing: auto;
-    
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
     font-style: normal;
+
+ 
   }
   
   .caption p {
     font-size: 18px;
     color: #e5e5e5;
-    font-family: "Gelasio", serif;
-    font-optical-sizing: auto;
-    
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
     font-style: normal;
+
+
   }
 
   .h-card a {
