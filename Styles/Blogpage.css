@@ -5,6 +5,20 @@ body {
     background-color: #2d333a 
 }
 
+header {
+  text-align: center;          
+  font-size: 3rem;             
+  font-weight: bold;          
+  color: #ffffff;              
+  margin-top: 40px;            
+  margin-bottom: 40px;         
+  font-family: "Gelasio", serif; 
+  font-optical-sizing: auto;
+    
+  font-style: normal;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
 
 #blog-nav {
   display: flex;
@@ -71,6 +85,8 @@ body {
     background-color: #6B7A8F;
     color: white;
 }
+
+
 
 
 @media (max-width: 1024px) {

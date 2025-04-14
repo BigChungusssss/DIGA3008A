@@ -66,7 +66,7 @@ table {
 
 td {
     padding: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 img {
@@ -85,6 +85,24 @@ img {
     border-top: 2px solid #E5E5E5;  
     margin: 30px 0;  
 }
+
+.pdf-page .dt-published {
+    color: white; /* Force white text */
+    font-size: 0.95rem;
+    font-style: italic;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.h-card a {
+    color: #e5e5e5;       /* Change to white or any color you like */
+    text-decoration: none; /* Removes underline */
+  }
+  
+  .h-card a:hover {
+    color: #6B7A8F ;        /* Optional: add a hover color */
+    text-decoration: underline; /* Optional: underline on hover */
+  }
 
 
 @media print {
@@ -128,6 +146,14 @@ img {
         margin: 10px auto;    
         display: block;       
         height: auto;        
+    }
+
+    .dt-published {
+        color: white; 
+        font-size: 0.95rem;
+        font-style: italic;
+        margin-bottom: 20px;
+        display: block;
     }
     
 }

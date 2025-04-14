@@ -49,6 +49,16 @@
     font-style: normal;
   }
 
+  .h-card a {
+    color: #e5e5e5;       /* Change to white or any color you like */
+    text-decoration: none; /* Removes underline */
+  }
+  
+  .h-card a:hover {
+    color: #6B7A8F ;        /* Optional: add a hover color */
+    text-decoration: underline; /* Optional: underline on hover */
+  }
+
   /* Mobile adjustments */
 @media (max-width: 768px) {
   .centered-container {
