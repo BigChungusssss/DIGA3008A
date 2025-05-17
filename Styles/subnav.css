@@ -1,63 +1,80 @@
-
-.sidebar {
+* {
   margin: 0;
   padding: 0;
-  width: 100px;
-  background-color: #f1f1f1;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: white;
-  color: black; 
+  background-color: #ebd9b0;
+  font-family: 'Gotham Rounded', sans-serif;
+  display: grid;
+  place-items: center;
 }
 
-
-
-.sidebar a {
-  display: block;
-  color: #1c1c1c;
-  padding: 16px;
-  text-decoration: none;
+ul.menu {
+  margin-top: 200px;
+  width: 100%;
+  max-width: 300px;
+  color: #353b3F;
+  position: relative;
+  cursor: pointer;
 }
 
-/* Active/current link */
-.sidebar a.active {
-  background-color: #04AA6D;
+ul.menu li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.menu .submenu {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background-color: #353B3F;
+  border-radius: 1rem;
+  padding: 1rem;
+  transition: all .3s ease;
+}
+.menu .submenu li {
   color: white;
+  padding: 1rem;
+  border-radius: .5rem;
+  cursor: pointer;
+  transition: background .2s ease;
 }
 
-/* Links on mouse-over */
-.sidebar a:hover:not(.active) {
-  background-color: #6B7A8F;
-  color: white;
+.menu .submenu li:nth-child(1):hover {
+  background-color: #65D076;
+}
+.menu .submenu li:nth-child(2):hover {
+  background-color: #4B82FF;
+}
+.menu .submenu li:nth-child(3):hover {
+  background-color: #42B3DB;
+}
+.menu .submenu li:nth-child(4):hover {
+  background-color: #FA7E91;
+}
+.menu .submenu li:nth-child(5):hover {
+  background-color: #A073FF;
 }
 
-
-div.content {
-  margin-left: 200px;
-  padding: 1px 16px;
-  height: 1000px;
+.menu img {
+  width: 1.1rem;
+  transition: transform .2s ease;
 }
 
-
-@media screen and (max-width: 700px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  .sidebar a {float: left;}
-  div.content {margin-left: 0;}
+.menu:hover img {
+  transform: rotate(180deg);
 }
 
-
-@media screen and (max-width: 400px) {
-  .sidebar a {
-    text-align: center;
-    float: none;
-  }
+.menu:hover .submenu {
+  top: 100%;
+  opacity: 1;
+  pointer-events: all;
 }
+
 

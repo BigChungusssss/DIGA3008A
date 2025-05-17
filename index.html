@@ -10,17 +10,19 @@
     <link rel = "stylesheet" href = "Styles/Profile.css">
     <link rel = "stylesheet" href = "../DIGA3008A/Styles/Homepage.css">
     <link rel = "stylesheet" href = "Styles/Blogpage.css">
+    <link rel = "stylesheet" href = "Styles/Transition.css">
     
     
 </head>
 
 <body>
+   
+  <div class="transition transition-2 is-active"></div>
     <section>
         
         <nav id="main-nav">
-          <div class="site-title">Nexus</div>
+          <li class="site-title"> <a href ="index.html">Nexus</a></li>
             <ul>
-                <li><a href="index.html">Homepage</a></li>
                 <li><a href="Blog/blogs.html">Blogs</a></li>
                 <li><a href="Portfolio/Portfolio.html">Portfolio</a></li>
                 <li><a href="Essays/Essays.html">Essays</a></li>
@@ -30,64 +32,63 @@
             </ul>
         </nav>
 
-    </section>
+        <div class="image-container">
+          <img src="../DIGA3008A/images/Hunters_Dream.jpeg" class="fullscreen-image" alt="Shivolon Govinder" width="300" height="300">
+          
+          <p class="overlay-paragraph" id="welcome-msg">Welcome, good traveler, to the Nexus</p>
+          <p class="overlay-paragraph" id="second-msg" style="display: none;">May your journey be filled with knowledge and wonder.</p>
+      </div>
+        
+      
+        
+      <nav id="blog-nav">
+        <ul>
+            <li><a href="Blog/blogs.html">Blogs</a></li>
+            <li><a href="Design/Design.html">Design section</a></li>
+            <li><a href="Essays/Essays.html">Essays</a></li>
+            <li><a href="Portfolio/Portfolio.html">Portfolio</a></li>
+      
+        </ul>
+      </nav>
+      
+      
+      
+       
+      
+        <section>
+      
+          <div class="centered-container">
+              <div class="image-wrapper">
+                <img src="../DIGA3008A/images/Maria.jpg" alt="Profile Picture">
+              </div>
+              <div class="caption">
+                <h2>Shivolon Govinder</h2>
+                <div class="h-card">
+                  <p class="p-name">Shivolon Govinder</p>
+      
+                  <p class="p-role">Engineer</p>
+                  <p class="p-org">University of the Witwatersrand</p>
+                  <p class="p-locality">Johannesburg</p>
+                  <p><a class="u-url" href="About me/Aboutme.html">Find out About me</a></p>
+                  <p><a class="u-email" href="https://mail.google.com/mail/?view=cm&to=2550283@students.wits.ac.za" target="_blank">Email: 2550283@students.wits.ac.za</a></p>
+                </div>
+               
+               </P>
+              </div>
+            </div>
+            
+      
+              
+      
+      
+      </section>
+
+
+    <script src="Scripts/Transition.js"></script>
+    <script src="Scripts/message.js"></script>
 
 
 </body>
-
-<div class="image-container">
-    <img src="../DIGA3008A/images/Hunters_Dream.jpeg" class="fullscreen-image" alt="Shivolon Govinder" width="300" height="300">
-    
-    <p class="overlay-paragraph">Welcome, good traveler, to the Nexus</p>
-  </div>
-  
-
-  
-<nav id="blog-nav">
-  <ul>
-      <li><a href="Blog/blogs.html">Blogs</a></li>
-      <li><a href="Design/Design.html">Design section</a></li>
-      <li><a href="Essays/Essays.html">Essays</a></li>
-      <li><a href="Portfolio/Portfolio.html">Portfolio</a></li>
-
-  </ul>
-</nav>
-
-
-
- 
-
-  <section>
-
-    <div class="centered-container">
-        <div class="image-wrapper">
-          <img src="../DIGA3008A/images/Maria.jpg" alt="Profile Picture">
-        </div>
-        <div class="caption">
-          <h2>Shivolon Govinder</h2>
-          <div class="h-card">
-            <p class="p-name">Shivolon Govinder</p>
-
-            <p class="p-role">Engineer</p>
-            <p class="p-org">University of the Witwatersrand</p>
-            <p class="p-locality">Johannesburg</p>
-            <p><a class="u-url" href="About me/Aboutme.html">Find out About me</a></p>
-            <p><a class="u-email" href="https://mail.google.com/mail/?view=cm&to=2550283@students.wits.ac.za" target="_blank">Email: 2550283@students.wits.ac.za</a></p>
-          </div>
-         
-         </P>
-        </div>
-      </div>
-      
-
-        
-
-
-</section>
-
-
-
-
 
 
 </html>

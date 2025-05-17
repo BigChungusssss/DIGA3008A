@@ -8,13 +8,15 @@
     <title>Blog 5</title>
     <link rel = "stylesheet" href = "../Styles/main.css">
     <link rel="stylesheet" href="../Styles/articles.css">
+    <link rel = "stylesheet" href = "../Styles/Transition.css">
+    <link rel = "stylesheet" href = "../Styles/Hamburger.css">
 </head>
 <body>
-    
+  <div class="transition transition-2 is-active"></div>
     <nav id="main-nav">
-        <div class="site-title">Nexus</div>
+      <li class="site-title"><a href="#" class="toggle  no-transition">Nexus</a></li>
         <ul>
-            <li><a href="../index.html">Homepage</a></li>
+            
             <li><a href="blogs.html">Blogs</a></li>
             <li><a href="../Portfolio/Portfolio.html">Portfolio</a></li>
             <li><a href="../Essays/Essays.html">Essays</a></li>
@@ -23,6 +25,15 @@
             
         </ul>
     </nav>
+    <div class="sub-menu">
+      <a href="../index.html" class="option">Home</a>
+      <a href="MyfirstBlog.html" class="option">Blog1</a>
+      <a href="MysecondBlog.html" class="option">Blog2</a>
+      <a href="MyThird.html" class="option">Blog3</a>
+      <a href="Myfourth.html" class="option">Blog4</a>
+    </div>
+  </div>
+
     <div class="pdf-page">
       <h1 class="p-name">Blog 5</h1>
 
@@ -78,6 +89,7 @@
 
     </div>
    
-
+    <script src="../Scripts/Transition.js"></script>
+    <script src="../Scripts/sub_nav.js"></script>
 </body>
 </html>

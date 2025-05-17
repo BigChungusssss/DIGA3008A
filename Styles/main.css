@@ -11,21 +11,35 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
-
+/* Styling for the site-title */
 #main-nav .site-title {
   color: #E5E5E5;
   text-align: left;
-  font-size: 20px;
+  font-size: 20px;  
   font-family: "MedievalSharp", cursive;
-  font-weight: 400;
+  font-weight: 600;  
   font-style: normal;
-
-  margin-left: 0; 
+  margin-left: 0;
   margin-top: 0;
-   
-  
+  list-style: none; 
+}
+
+#main-nav .site-title a {
+  text-decoration: none;  
+  color: inherit;        
+  transition: color 0.3s ease, text-decoration 0.3s ease; 
+}
+
+
+#main-nav .site-title a:hover {
+  color: #1c1c1c; 
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
 }
 
 #main-nav {

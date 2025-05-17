@@ -51,6 +51,17 @@
 
 }
 
+.overlay-paragraph {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.overlay-paragraph:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+  
+}
 
 @media (max-width: 768px) {
   .overlay-heading {

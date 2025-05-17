@@ -9,24 +9,37 @@
     <link rel = "stylesheet" href = "../Styles/main.css">
     <link rel = "stylesheet" href = "../Styles/Blog.css">
     <link rel = "stylesheet" href = "../Styles/articles.css">
+    <link rel = "stylesheet" href = "../Styles/Hamburger.css">
+    <link rel = "stylesheet" href = "../Styles/Transition.css">
+
     
 
 </head>
 
 <body>
-
+    <div class="transition transition-2 is-active"></div>
     <nav id="main-nav">
-        <div class="site-title">Nexus</div>
+        <li class="site-title"><a href="#" class="toggle  no-transition">Nexus</a></li>
         <ul>
-            <li><a href="../index.html">Homepage</a></li>
             <li><a href="blogs.html">Blogs</a></li>
             <li><a href="../Portfolio/Portfolio.html">Portfolio</a></li>
             <li><a href="../Essays/Essays.html">Essays</a></li>
             <li><a href="../Design/Design.html">Design</a></li>
             <li><a href="../About me/Aboutme.html">About me</a></li>
-            
         </ul>
     </nav>
+    
+
+
+
+    <div class="sub-menu">
+        <a href="../index.html" class="option">Home</a>
+        <a href="MysecondBlog.html" class="option">Blog2</a>
+        <a href="MyThird.html" class="option">Blog3</a>
+        <a href="Myfourth.html" class="option">Blog4</a>
+        <a href="FifthBlog.html" class="option">Blog5</a>
+      </div>
+    </div>
 
 
 
@@ -86,7 +99,7 @@
 
 
 
-
-
+  <script src="../Scripts/sub_nav.js"></script>
+  <script src="../Scripts/Transition.js"></script>
 </body>
 </html>
