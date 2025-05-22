@@ -17,7 +17,7 @@ window.onload = () => {
         e.preventDefault();
         const target = anchor.href;
   
-        // Optional: set localStorage flags if needed
+       
         if (target.includes("Portfolio.html")) {
           localStorage.setItem("visitedPortfolio", "true");
         }

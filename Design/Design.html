@@ -25,24 +25,28 @@
         </ul>
     </nav>
 
-    
+     <header>Design Section</header>
 
+    <div class="design-container">
+  <!-- Cards -->
+  <div class="card-grid">
+    <div class="content-card" data-modal="modal-ixd">
+      <h2>IxD Process</h2>
+    </div>
+    <div class="content-card" data-modal="modal-style">
+      <h2>Style Guide</h2>
+    </div>
+    <div class="content-card" data-modal="modal-ref">
+      <h2>References</h2>
+    </div>
+  </div>
 
-
-    <div class="pdf-page">
-        <h1 class="p-name">Design Section</h1>
-
-           
-        <p class="p-author h-card">
-            <a class="u-url" href="../About me/Aboutme.html">Shivolon Govinder</a>
-        </p>
-    
-           
-        <time class="dt-published" datetime="2025-04-14T12:00:00Z">April 14, 2025</time>
-
-       
-
-        <h3>IxD process</h3>
+  <!-- Modals -->
+  <div class="modal" id="modal-ixd">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <!-- Insert your full IxD process content here -->
+       <h3>IxD process</h3>
         <h4>Goal alignment</h4>
         <p>The goal of this website is to offer a seamless and user-friendly experience. I want visitors
             to find information quickly and effortlessly, without the hassle of navigating through
@@ -135,10 +139,16 @@
             My color palette will primarily consist of black, white, and various shades of blue. These colors were carefully chosen to reflect the visual atmosphere of Bloodborne’s Hunter’s Dream — a space dominated by cool, desaturated tones. The use of blue, in particular, evokes a sense of calm, melancholy, and mystery, while black and white provide contrast and clarity. Together, this palette creates a dreamlike, otherworldly mood thats found in the Hunters dream.
 
         </p>
-        
-        
-        <hr class="section-divider">
-        <h3>Style guide</h3>
+
+      <!-- Continue with your IxD content... -->
+    </div>
+  </div>
+
+  <div class="modal" id="modal-style">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <!-- Insert your full Style Guide content here -->
+       <h3>Style guide</h3>
         <h4>Aesthetic goal</h4>
         <p>I want the aesthetic of my website to be calming and evoke an otherworldly feeling.</p>
         <h4>Colour Swatches</h4>
@@ -222,18 +232,15 @@
 
         </p>
 
+      <!-- Continue with your Style Guide content... -->
+    </div>
+  </div>
 
-
-
-
-
-
-
-
-
-        <hr class="section-divider">  <!-- Divider -->
-
-        <h3>References</h3>
+  <div class="modal" id="modal-ref">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <!-- Insert your References content here -->
+       <h3>References</h3>
         <table>
             
             <tr>
@@ -251,7 +258,17 @@
             </tr>
 
         </table>
+      <!-- Continue with your References content... -->
     </div>
+  </div>
+
+
+    
+
+
+
+       
     <script src="../Scripts/Transition.js"></script>
+    <script src="../Scripts/article.js"></script>
 </body>
 </html>

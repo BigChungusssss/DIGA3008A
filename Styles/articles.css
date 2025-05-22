@@ -1,17 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 
 
-
-body {
-    background-color: #b3472d; 
-    margin: 0;
-    padding: 0;
-    overflow-y: auto;  
-    height: 100vh;  
-}
-
 .pdf-page {
-    background-color: #1c1c1c; 
+    background-color: #ece7db; 
     width: 100vw;  
     min-height: 100vh;  
     padding: 20px;  
@@ -25,8 +16,8 @@ body {
     overflow: visible; 
 }
 
-h2, h1, h3, h4, h5, h6 {
-    color: #E5E5E5;
+h2, h3, h4, h5, h6 {
+    color: #1c1c1c;
     margin-top: 20px;
     font-family: "MedievalSharp", cursive;
     font-weight: 400;
@@ -38,8 +29,23 @@ h2, h1, h3, h4, h5, h6 {
 
 }
 
+header {
+  text-align: center;          
+  font-size: 3rem;             
+  font-weight: bold;          
+  color: #ffffff;              
+  margin-top: 40px;            
+  margin-bottom: 40px; 
+  font-family: "MedievalSharp", cursive;
+  font-weight: 400;
+  font-style: normal;  
+      
+
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
 p {
-    color: #E5E5E5;  
+    color: #1c1c1c;  
     line-height: 1.6;  
     margin-bottom: 20px;
     text-align: justify; 
@@ -49,7 +55,7 @@ p {
 }
 
 #review-list {
-    color: #E5E5E5;
+    color: #1c1c1c;
     margin-left: 20px;
     padding-left: 20px;
     margin-bottom: 20px;
@@ -103,7 +109,7 @@ img {
 }
 
 .pdf-page .dt-published {
-    color: white; 
+    color: #1c1c1c; 
     font-size: 0.95rem;
     font-style: italic;
     margin-bottom: 20px;
@@ -111,7 +117,7 @@ img {
 }
 
 .h-card a {
-    color: #e5e5e5;       
+    color: #1c1c1c;       
     text-decoration: none; 
     font-family: "MedievalSharp", cursive;
     font-weight: 400;
@@ -124,6 +130,101 @@ img {
     color: #6B7A8F ;       
     text-decoration: underline; 
   }
+
+ .card-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.content-card {
+  background-color: #ece7db;
+  color: #1c1c1c;
+  width: 328px;
+  height: 400px;
+  padding: 16px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border: 2px solid #ccc;
+  transition: transform 0.3s, box-shadow 0.3s;
+  font-family: "MedievalSharp", cursive;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.content-card:hover {
+  transform: scale(1.05);
+}
+
+/* Modal styling */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+  background-color: #ece7db;
+  margin: 5% auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 90%;
+  max-width: 800px;
+  color: #1c1c1c;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.nav-buttons button {
+  background: none;               
+  border: none;                  
+  color: #1c1c1c;                
+  font-family: "MedievalSharp", cursive;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0;              
+  transition: all 0.2s ease;
+}
+
+.nav-buttons button:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+  color: #000; 
+}
+
+
 
 
 @media print {

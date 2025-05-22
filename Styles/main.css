@@ -19,7 +19,7 @@ body {
 #main-nav .site-title {
   color: #E5E5E5;
   text-align: left;
-  font-size: 20px;  
+  font-size: 30px;  
   font-family: "MedievalSharp", cursive;
   font-weight: 600;  
   font-style: normal;
@@ -36,7 +36,6 @@ body {
 
 
 #main-nav .site-title a:hover {
-  color: #1c1c1c; 
   text-decoration: underline;
   text-underline-offset: 4px;
   text-decoration-thickness: 2px;
@@ -44,11 +43,11 @@ body {
 
 #main-nav {
   background-color: #2f2c3f;
-  padding: 5px 50px; 
+  padding: 20px 50px; 
   position: sticky;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   z-index: 1000;
   border-bottom: 2px solid #c5c4c4;
 
@@ -80,7 +79,7 @@ body {
 
 
 
-    font-size: 16px;
+    font-size: 20px;
     transition: 0.3s;
 }
 
@@ -89,6 +88,43 @@ body {
   text-underline-offset: 4px;
   text-decoration-thickness: 2px;
 }
+
+
+footer {
+  background-color: #1c1c1c;
+  color: #E5E5E5;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 15px;
+  border-top: 2px solid #c5c4c4;
+      font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    font-style: normal;
+  
+  line-height: 1.6;
+}
+
+footer a {
+  color: #94d3a2;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #e0ffdc;
+  text-decoration: underline;
+}
+
+footer nav {
+  margin-top: 10px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+
 
 @media (max-width: 768px) {
     #main-nav {

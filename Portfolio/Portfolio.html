@@ -1,69 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="My portfolio showcasing some of my works over the years">
-    <meta name="author" content="Shivolon Govinder">
-   
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="../Styles/main.css">
-    <link rel="stylesheet" href="../Styles/Portfolio.css">
-    <link rel = "stylesheet" href = "../Styles/Transition.css">
-    
-  
-   
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="My portfolio showcasing some of my works over the years" />
+  <meta name="author" content="Shivolon Govinder" />
+
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="../Styles/main.css" />
+  <link rel="stylesheet" href="../Styles/Portfolio.css" />
+  <link rel="stylesheet" href="../Styles/Transition.css" />
+
 </head>
 <body>
   <div class="transition transition-2 is-active"></div>
-    <nav id="main-nav">
-      <li class="site-title"> <a href ="../index.html">Nexus</a></li>
-        <ul>
-        
-            <li><a href="../Blog/blogs.html">Blogs</a></li>
-            <li><a href="../Portfolio/Portfolio.html">Portfolio</a></li>
-            <li><a href="../Essays/Essays.html">Essays</a></li>
-            <li><a href="../Design/Design.html">Design</a></li>
-            <li><a href="../About me/Aboutme.html">About me</a></li>
-            
-        </ul>
-    </nav>
 
-    <header>Portfolio</header>
+  <nav id="main-nav">
+    <li class="site-title"><a href="../index.html" >Nexus</a></li>
+    <ul>
+      <li><a href="../Blog/blogs.html">Blogs</a></li>
+      <li><a href="../Portfolio/Portfolio.html">Portfolio</a></li>
+      <li><a href="../Essays/Essays.html">Essays</a></li>
+      <li><a href="../Design/Design.html">Design</a></li>
+      <li><a href="../About me/Aboutme.html">About me</a></li>
+    </ul>
+  </nav>
 
-    <h1 class="header2">Artworks</h1>
+  <header>Portfolio</header>
 
-    <div class="gallery">
-        <div class="image-card">
-            <img src="../images/Drawing1.jpg" alt="Gothic Artwork">
-            <div class="image-info">Portrait of lady, Pencil and charcoal</div>
-          </div>
-          <div class="image-card">
-            <img src="../images/Drawing2.jpg" alt="Gothic Artwork">
-            <div class="image-info">The distant future, pencil</div>
-          </div>
-          <div class="image-card">
-            <img src="../images/Drawing3.jpg" alt="Gothic Artwork">
-            <div class="image-info">High on samurai, oil paint</div>
-          </div>
-          <div class="image-card">
-            <img src="../images/Drawing4.jpg" alt="Gothic Artwork">
-            <div class="image-info">Khaleesi, pencil</div>
-          </div>
-          <div class="image-card">
-            <img src="../images/Drawing5.jpg" alt="Gothic Artwork">
-            <div class="image-info">Cant see, pencil and colour pencil</div>
-          </div>
-          <div class="image-card">
-            <img src="../images/Drawing6.jpg" alt="Gothic Artwork">
-            <div class="image-info">Firekeeper, pen</div>
-          </div>
+  <h1 class="header2">Artworks</h1>
 
-      <!-- Add more <img> tags as needed -->
-    </div>
-  
+<div class="gallery">
+  <div class="image-card">
+    <img src="../images/Drawing1.jpg" alt="Gothic Artwork" />
+    <div class="image-info">Portrait of lady, Pencil and charcoal</div>
+    <div class="image-sum">Lady in profile</div>
+  </div>
+  <div class="image-card">
+    <img src="../images/Drawing2.jpg" alt="Gothic Artwork" />
+    <div class="image-info">The distant future, pencil</div>
+    <div class="image-sum">Futuristic scene</div>
+  </div>
+  <div class="image-card">
+    <img src="../images/Drawing3.jpg" alt="Gothic Artwork" />
+    <div class="image-info">High on samurai, oil paint</div>
+    <div class="image-sum">Samurai dreamscape</div>
+  </div>
+  <div class="image-card">
+    <img src="../images/Drawing4.jpg" alt="Gothic Artwork" />
+    <div class="image-info">Khaleesi, pencil</div>
+    <div class="image-sum">Fantasy queen</div>
+  </div>
+  <div class="image-card">
+    <img src="../images/Drawing5.jpg" alt="Gothic Artwork" />
+    <div class="image-info">Cant see, pencil and colour pencil</div>
+    <div class="image-sum">Hidden gaze</div>
+  </div>
+  <div class="image-card">
+    <img src="../images/Drawing6.jpg" alt="Gothic Artwork" />
+    <div class="image-info">Firekeeper, pen</div>
+    <div class="image-sum">Dark flame</div>
+  </div>
+</div>
 
+  <!-- Fullscreen Modal -->
+  <div id="image-modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-image" src="" alt="" />
+    <div class="modal-text"></div>
+  </div>
 
-    <script src="../Scripts/Transition.js"></script> 
+  <script src="../Scripts/Transition.js"></script>
+  <script src="../Scripts/Portfolio.js"></script>
 </body>
 </html>
