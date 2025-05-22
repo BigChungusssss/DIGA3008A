@@ -124,6 +124,49 @@ footer p {
   margin: 5px 0;
 }
 
+  #black-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #2f2c3f;
+  z-index: 9999;
+  pointer-events: none;
+  transition: opacity 1s ease;
+}
+
+#black-screen p {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+  
+  padding: 20px 30px;
+  border-radius: 12px;
+  font-family: "MedievalSharp", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+#title_head {
+  
+
+  font-size: 100px; /* Big size for the site title */
+  font-family: "MedievalSharp", cursive; /* Keep the font consistent with the rest of the site */
+  font-weight: 400;
+  font-style: normal;
+  color: #E5E5E5; /* Light text color to contrast with black screen */
+  font-weight: 700; /* Bold weight for prominence */
+  text-align: center;
+  
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Slight shadow for better readability */
+  padding: 300px 20px;
+}
+
 
 
 @media (max-width: 768px) {
