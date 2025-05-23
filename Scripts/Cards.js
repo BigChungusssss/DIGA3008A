@@ -4,9 +4,9 @@ const hoverTexts = [
   "Week 3: User alignment",
   "Week 4: Reflection on website",
   "Week 7: Analysis on SA websites",
-  "Week 9: User alignment",
-  "Week 10: Challenging Death of Distance",
-  "Week 11: User alignment",
+  "Week 9: Refection on two articles",
+  "Week 10: Close Reading",
+  "Week 11: Critical Reflection",
   "Week 12: Decolonialism",
   "Week 13: What Does an Ethical Internet Look Like to Me?",
   

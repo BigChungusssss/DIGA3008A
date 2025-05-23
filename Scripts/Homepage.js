@@ -1,10 +1,38 @@
-  window.addEventListener('scroll', () => {
-    const blackScreen = document.getElementById('black-screen');
-    const scrollY = window.scrollY;
+  const hoverTexts = [
+  "Read some blogs",
+  "Want to see the behind the scenes",
+  "If you have the time",
+  "Go check out my projects, i just have my artworks posted",
+  
+,
+  
+];
 
-    if (scrollY > 50) {
-      blackScreen.style.opacity = '0';
-    } else {
-      blackScreen.style.opacity = '1';
-    }
+document.querySelectorAll('#blog-nav .blog-card').forEach((card, index) => {
+  const message = hoverTexts[index % hoverTexts.length]; // loop messages
+  const textElement = card.querySelector('.blog-hover-text');
+  let typingInterval;
+  let isTyping = false;
+
+  card.addEventListener('mouseenter', () => {
+    if (isTyping) return;
+    isTyping = true;
+    let i = 0;
+    textElement.textContent = "";
+
+    typingInterval = setInterval(() => {
+      textElement.textContent += message.charAt(i);
+      i++;
+      if (i >= message.length) {
+        clearInterval(typingInterval);
+        isTyping = false;
+      }
+    }, 40);
   });
+
+  card.addEventListener('mouseleave', () => {
+    clearInterval(typingInterval);
+    textElement.textContent = "";
+    isTyping = false;
+  });
+});
