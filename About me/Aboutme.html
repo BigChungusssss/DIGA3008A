@@ -7,6 +7,7 @@
     <link rel = "stylesheet" href = "../Styles/Aboutme.css">
     <link rel = "stylesheet" href = "../Styles/main.css">
     <link rel = "stylesheet" href = "../Styles/Transition.css">
+    <link rel = "stylesheet" href = "../Styles/API.css">
 </head>
 <body>
     <div class="transition transition-2 is-active"></div>
@@ -15,7 +16,7 @@
         <li class="site-title"> <a href ="../index.html">Nexus</a></li>
         <ul>
             
-            <li><a href="../Blog/blogs.html">Blogs</a></li>
+            <li><a href="../Blog/blogs.html" class="active">Blogs</a></li>
             <li><a href="../Portfolio/Portfolio.html">Portfolio</a></li>
             <li><a href="../Essays/Essays.html">Essays</a></li>
             <li><a href="../Design/Design.html">Design</a></li>
@@ -35,8 +36,15 @@
             Outside of making things, I love playing games and watching movies — it's where I find inspiration and a bit of downtime.</div>
       </div>
 
-      <footer>
-  <p id="footer-credit">&copy; Shivolon Govinder — Portfolio</p>
+    <header>My GitHub repositories</header>
+  <div id="github-repos">
+    <div class="repo-card">
+      <ul id="repo-list"></ul>
+    </div>
+  </div>
+
+  <footer>
+   <p id="footer-credit">&copy; Shivolon Govinder — Portfolio</p>
 
     <nav>
 
@@ -54,5 +62,6 @@
 
 
       <script src="../Scripts/Transition.js"></script>
+      <script src="../Scripts/API.js"></script>
 </body>
 </html>

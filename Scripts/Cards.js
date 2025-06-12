@@ -9,6 +9,7 @@ const hoverTexts = [
   "Week 11: Critical Reflection",
   "Week 12: Decolonialism",
   "Week 13: What Does an Ethical Internet Look Like to Me?",
+  "Week 14: How do you consider justice and ethics in your art and code?",
   
 ];
 

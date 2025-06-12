@@ -140,6 +140,28 @@ body {
   cursor: pointer;
 }
 
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255,255,255,0.8);
+  border: none;
+  font-size: 2rem;
+  padding: 10px 16px;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 6px;
+}
+
+#prev-image {
+  left: 20px;
+}
+
+#next-image {
+  right: 20px;
+}
+
+
 
 
   @media (max-width: 768px) {

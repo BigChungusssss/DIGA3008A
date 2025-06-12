@@ -1,0 +1,67 @@
+    body {
+      background-color: #2d333a;
+      font-family: "MedievalSharp", cursive;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      font-size: 3rem;
+      font-weight: 400;
+      color: #ffffff;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      font-style: normal;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    #github-repos {
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+      box-sizing: border-box;
+      width: 100%;
+    }
+
+    /* Big card container wrapping the entire list */
+    .repo-card {
+      background-color: #ece7db;
+      border-radius: 16px;
+      padding: 40px 50px;
+      max-width: 900px;
+      width: 100%;
+      box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+      border: 2px solid #ccc;
+      font-weight: 400;
+      font-size: 22px;
+      font-style: normal;
+      font-family: "MedievalSharp", cursive;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* The repo list styles */
+    #repo-list {
+      list-style-type: disc; /* bullet points */
+      padding-left: 20px;
+      margin: 0;
+    }
+
+    #repo-list li {
+      margin-bottom: 12px;
+    }
+
+    /* Optional: links style inside list */
+    #repo-list li a {
+      color: #333;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    #repo-list li a:hover {
+      color: #8b4513; /* darker brown on hover */
+      text-decoration: underline;
+    }
+
