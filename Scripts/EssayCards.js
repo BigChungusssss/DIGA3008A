@@ -1,7 +1,8 @@
 const hoverTexts = [
   "Essay 1: Analysing UI, UX and Ethical Considerations of a South African Website",
-  "Essay 2: In progress",
-  "Reflection: In progress",
+  "Essay 2: Intersections between the internet, geopolitics, and digital coloniality",
+  "Reflection: Reflection on the Implementation of the Website",
+ 
 
   
 ];
