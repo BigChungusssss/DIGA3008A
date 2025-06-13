@@ -32,6 +32,7 @@
   <ul>
     <li><div class="blog-card" data-modal="modal-essay1">Essay 1<div class="blog-hover-text"></div></div></li>
     <li><div class="blog-card" data-modal="modal-essay2">Essay 2<div class="blog-hover-text"></div></div></li>
+    <li><div class="blog-card" data-modal="modal-essay3">Reflection<div class="blog-hover-text"></div></div></li>
    
   </ul>
 </nav>
@@ -95,7 +96,35 @@
   </div>
 </div>
 
+<div class="modal" id="modal-essay3">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <h1>Reflection on the Implementation of the Website</h1>
+            <p class="p-author h-card">
+            <a class="u-url" href="../About me/Aboutme.html">Shivolon Govinder</a>
+        </p>
+    
+           
+        <time class="dt-published" datetime="2025-02-18T12:00:00Z">May 13, 2025</time>
+        <p>At the end of this semester, I can confidently say that my understanding of how UI and UX decisions impact code structure has significantly deepened. Designing a website that is both functional and user-friendly required careful planning across all layers—structure, style, and behaviour.</p>
 
+<p>I used a clear and hierarchal folder structure because it helped me stay organized as the project grew. The main folder includes image folder, styles folder for my CSS scripts, and scripts folder used to store my JavaScript files, and folders for the different pages of my website, which helped me clearly distinguish between styling, behaviour and content. I used naming conventions that clearly show what that file styles and where they belong, this helps me quickly find and update the code.</p>
+
+<p>I used semantic HTML elements such as “header”, “nav”, “main”, “article” and “section” to provide clear context to the browser. This helped define the structure of each of my pages. All interface elements were marked up with the correct semantic tags- for example, navigation links were put under “nav”, and buttons were labelled with the “button” tag rather than using “div” or “a”. This ensured correct keyboard and screen reader behaviour. My content was clearly organized using elements such as “article” for blog post and essays. This helps both search engines and users understand the hierarchy and role of each content block. Using “label” tags with form inputs, properly nesting headings and structuring regions made the site more accessible. Overall, semantic markup made my code more maintainable and scalable, whilst contributing to better accessibility and UX.</p>
+
+<p>I included essential metadata in the “head” of each page to help browsers and search engines interpret the content correctly. This included “meta charset="UTF-8"” for proper text encoding and “meta name="viewport"” to ensure responsive behaviour on different devices. Content such blog posts and essay pages, were areas on the website that would benefit from metadata. I added “meta name="description"” in each blog page and essay to provide a summary for search engine previews, I also included author names and publication dates to give proper context and credibility to the content. My metadata was expressed fully and correctly, using the standard HTLML syntax. This ensured compatibility across browsers and devices.</p>
+
+<p>I avoided using inline styles entirely and instead used external CSS files to ensure consistent styling across all pages. This helped keep the HTML clean and focused purely on structure and content. My CSS scripts are modular and maintainable -I split the styles into sperate files based on either page. This organization made it easier to manage and scale the styles as the site grew. To ensure the website is responsive, I used @media queries to adapt layouts for different screen sizes. This approach improved overall UX by making the site accessible and usable across a wide range of devices.</p>
+
+<p>I expressed all Interaction points and functionality using JavaScript through even listeners and DOM manipulation. This allowed users to interact with elements like navigation menus, modals and other forms in dynamic and responsive ways. Repeated Functionality – such as showing and hiding content, and menus – was separated into reusable functions. This helped reduce code duplication and made codebase more maintainable. I avoided all inline scripting to maintain clean HTML and followed best practices by linking to external .js files. This separation made it easier to manage and update functionality without interfering with page structure. I used the Fetch API for async requests to dynamically load content without reloading the page. This improved performance and provided a smoother UX by reducing unnecessary delays.</p>
+
+
+          
+    
+          
+
+  </div>
+</div>
 
 
 

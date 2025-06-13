@@ -1,6 +1,7 @@
 const hoverTexts = [
   "Essay 1: Analysing UI, UX and Ethical Considerations of a South African Website",
   "Essay 2: In progress",
+  "Reflection: In progress",
 
   
 ];
