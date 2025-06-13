@@ -6,7 +6,7 @@ const hoverTexts = [
 
   
 ];
-
+// 
 document.querySelectorAll('#blog-nav .blog-card').forEach((card, index) => {
   const message = hoverTexts[index % hoverTexts.length]; // loop messages
   const textElement = card.querySelector('.blog-hover-text');
